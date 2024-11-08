@@ -71,7 +71,7 @@ id akun: {akun["id"]}
 
 pendaftaran anda sudah selesai, untuk selanjutnya akan di proses
 
-Terima kasih Sudah menggunakan layanan amabney""")
+Terima kasih Sudah menggunakan layanan ambaney""")
     print(80 * "-")
 
 #------------------------------------------------------------------------------------------------------------------
@@ -754,7 +754,7 @@ def ambaney(): #E-money bugged
                             new_money = conc - konc
                             row[2] = str(new_money)
                             clear()
-                            print(f"Pembayaran berhasil. Sisa saldo: {row[2]}")
+                            print(f"Pembayaran berhasil, Sisa saldo ambaney: {row[2]}")
                             invoice_ambaney()
                             time.sleep(10)
                         else:
@@ -859,7 +859,7 @@ def input_lowongan_user():
 def Mendaftar_Pekerjaan():        #Mendaftar Pekerjaan
     try:
         clear()
-        pilihan("""syarat-syarat mendaftar di PT.Amablihngham""")
+        pilihan("""syarat-syarat mendaftar di PT.Ambalihngham""")
         print(show_table_syarat_mendaftar)
         print("Silahkan Daftar\n")
         data_daftar["nama"] = input("Masukkan nama lengkap: ")
